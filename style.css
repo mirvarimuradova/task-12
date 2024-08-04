@@ -5,14 +5,31 @@
 header{
     background-color: #008B8A;
     color: #fff;
+    display: flex;
     padding: 10px 20px;
     font-size: 20px;
-    width: 140%;
+  
+}
+.add-list{
+    width: 200px;
+    border-radius: 10px;
+    height: 45px;
+    font-size: 18px;
+    background-color: #009E9D;
+    color: #fff;
+    border: 1px solid #fff;
+    margin-left: 60px;
+    margin-top: 10px;
+}
+.add-list:hover{
+    background-color: #fff;
+    color: #009E9D;
+    border: 1px solid #fff;
 }
 main{
     display: flex ;
-    justify-content: space-between;
-    width: 140%;
+   
+  
     overflow-x: scroll;
     padding: 20px;
     background-color: #009E9D;
@@ -26,12 +43,40 @@ main .main-container2 , .main-container3, .main-container4{
     overflow-y: scroll;
 }
 
-.main-container1 ,.main-container5{
+.main-container{
+   
     width: 370px;
     background-color: #DCDCDC;
     border-radius: 7px;
     padding: 20px;
+    margin: 20px;
     height: 80vh;
+}
+.add-head-input{
+    background-color: transparent;
+    border: 1px solid transparent;
+    height: 50px;
+    width: 90%;
+    font-size: 20px;
+    font-weight: 600;
+}
+.button-inside{
+    display: block;
+    margin-top: 15px;
+    width: 150px;
+    height: 45px;
+    border: 1px solid #fff;
+    font-size: 18px;
+    background-color: #F8F8FF;
+    color: #008B8A;
+
+}
+.prg-inlist{
+    text-wrap: wrap;
+    height: 80px;
+    background-color: transparent;
+    border: transparent;
+    width: 90%;
 }
 section{
    
@@ -51,7 +96,13 @@ section{
 }
 img{
     width: 18px;
-    margin-left: 15px;
+   
+}
+.btnRemove{
+    display: block;
+}
+.deletebutton{
+
 }
 .man1{
     width: 40px;
