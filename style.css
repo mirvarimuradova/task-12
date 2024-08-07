@@ -2,6 +2,10 @@
     box-sizing: border-box;
     font-family: "Roboto", sans-serif;
 }
+body{
+    background-color: #009E9D;
+    
+}
 header{
     background-color: #008B8A;
     color: #fff;
@@ -11,7 +15,7 @@ header{
   
 }
 .add-list{
-    width: 200px;
+    min-width: 200px;
     border-radius: 10px;
     height: 45px;
     font-size: 18px;
@@ -27,12 +31,12 @@ header{
     border: 1px solid #fff;
 }
 main{
-    display: flex ;
-   
-  
+    display: flex;
+    align-items: flex-start;
     overflow-x: scroll;
     padding: 20px;
-    background-color: #009E9D;
+    height: 88vh;
+   
 }
 main .main-container2 , .main-container3, .main-container4{
     width: 370px;
@@ -40,17 +44,19 @@ main .main-container2 , .main-container3, .main-container4{
     border-radius: 10px;
     padding: 20px;
     height: 80vh;
-    overflow-y: scroll;
+   
 }
 
 .main-container{
    
-    width: 370px;
+    min-width: 370px;
+    max-width: 390px;
     background-color: #DCDCDC;
     border-radius: 7px;
     padding: 20px;
     margin: 20px;
-    height: 80vh;
+    max-height: 555px; 
+   overflow-y: scroll;
 }
 .add-head-input{
     background-color: transparent;
@@ -60,8 +66,8 @@ main .main-container2 , .main-container3, .main-container4{
     font-size: 20px;
     font-weight: 600;
 }
-.button-inside{
-    display: block;
+.button-inside , .button-save{
+   
     margin-top: 15px;
     width: 150px;
     height: 45px;
@@ -70,6 +76,9 @@ main .main-container2 , .main-container3, .main-container4{
     background-color: #F8F8FF;
     color: #008B8A;
 
+}
+.button-save{
+    margin-left: 12px;
 }
 .prg-inlist{
     text-wrap: wrap;
@@ -98,11 +107,12 @@ img{
     width: 18px;
    
 }
+.img-container img{
+    width: 18px;
+    margin-left: 15px;
+}
 .btnRemove{
     display: block;
-}
-.deletebutton{
-
 }
 .man1{
     width: 40px;
